@@ -27,7 +27,8 @@ body {
 }
 
 .app-logo {
-    height: 5vh;
+    height: 7vh;
     object-fit: contain;
+    user-select: none;
     background-color: blue;
 }
