@@ -1,0 +1,48 @@
+/* text.css */
+
+/* Base font settings for all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+/* H1 - Main title */
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* H2 - Section heading */
+h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* H3 - Subsection heading */
+h3 {
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+/* H4 - Smaller subheading */
+h4 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* H5 - Minor heading */
+h5 {
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* H6 - Smallest heading */
+h6 {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+}
