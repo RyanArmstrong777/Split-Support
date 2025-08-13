@@ -115,7 +115,7 @@ a {
 .policy-container {
     position: absolute;
     top: 7vh;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     width: calc(100% - 40px);
