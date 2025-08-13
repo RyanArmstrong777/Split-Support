@@ -5,15 +5,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('../media/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     overflow: hidden;
-    overflow-y: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
     justify-content: center;
     align-items: center;
 }
@@ -123,11 +115,19 @@ a {
 .policy-container {
     position: absolute;
     top: 7vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     width: calc(100% - 40px);
     max-width: 700px;
     padding: 5vh 20px;
     z-index: 2;
-    gap: 2vh
+    gap: 2vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.policy-container::-webkit-scrollbar {
+    display: none;
 }
