@@ -30,6 +30,7 @@ a {
 }
 
 .navbar {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -37,7 +38,8 @@ a {
     height: 7vh;
     padding: 2vh;
     background: linear-gradient(to bottom, black, transparent);
-    z-index: 3
+    z-index: 3;
+    justify-content: left;
 }
 
 .app-logo {
@@ -57,7 +59,7 @@ a {
     margin-top: 7vh;
     justify-content: center;
     align-items: center;
-    z-index: 2
+    z-index: 2;
 }
 
 .header-container {
@@ -78,6 +80,7 @@ a {
     justify-content: center;
     align-items: center;
     object-fit: contain;
+    padding: 5vh 0;
 }
 
 .iphone-simulator-display {
